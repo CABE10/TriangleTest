@@ -1,0 +1,70 @@
+﻿<section class="container">
+    <div class="left-half">
+        <article>
+            <table>
+                <colgroup><col align="right"><col align="left"></colgroup>
+                <tr><th colspan="2"></th></tr>
+                <tr>
+                    <th>Row:</th>
+                    <td><input type="text" id="inputRow" value="C" title="row">
+                    <td>
+                </tr>
+                <tr>
+                    <th>Column:</th>
+                    <td><input type="text" id="inputColumn" value="6" title="column"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button onclick="generateTri()">Generate!</button>
+                    </td>
+                </tr>
+            </table>
+            <br />
+            <canvas id="myCanvas" width="180" height="180"
+                    style="border:1px solid #000000;">
+                browser does not support the canvas element.
+            </canvas>
+        </article>
+    </div>
+    <div class="right-half">
+        <article>
+            <table>
+                <colgroup><col align="right"><col align="left"></colgroup>
+                <tr><th colspan="2"></th></tr>
+                <tr>
+                    <th>V1x:</th>
+                    <td><input type="text" id="v1x" value="0" title="v1x">
+                    <td>
+                </tr>
+                <tr>
+                    <th>V1y:</th>
+                    <td><input type="text" id="v1y" value="50" title="v1y"></td>
+                </tr>
+                <tr>
+                    <th>V2x:</th>
+                    <td><input type="text" id="v2x" value="0" title="v2x"></td>
+                </tr>
+                <tr>
+                    <th>V2y:</th>
+                    <td><input type="text" id="v2y" value="60" title="v2y"></td>
+                </tr>
+                <tr>
+                    <th>V3x:</th>
+                    <td><input type="text" id="v3x" value="10" title="v3x"></td>
+                </tr>
+                <tr>
+                    <th>V3y:</th>
+                    <td><input type="text" id="v3y" value="50" title="v3y"></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button onclick="getRowAndColumn()">Retrieve!</button>
+                    </td>
+                </tr>
+            </table>
+            <p id="rowAndColumnResult"></p>
+        </article>
+    </div>
+</section>

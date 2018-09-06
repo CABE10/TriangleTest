@@ -1,0 +1,10 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/packages
+/TriangleTest/bin/Debug/netcoreapp2.1
+/TriangleTest/obj
+/UnitTests/bin/Debug/netcoreapp2.1
+/UnitTests/obj
+/.vs/TriangleTest/v15
